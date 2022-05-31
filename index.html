@@ -1,47 +1,603 @@
----
-layout: default
-title: Jie Lei
----
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <!--  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">-->
+  <meta name="viewport" content="width=1024">
 
-<div id="home">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
 
-  <p>See my new page here, <a href="http://www.cs.unc.edu/~jielei/">http://www.cs.unc.edu/~jielei/</a> </p>
-  
-<!--
-  <h1>Short Bio</h1>
-    <p> I am a 4th-year undergrad from Yingcai Honors College at <a href="http://www.uestc.edu.cn/">University of Electronic Science and Technology of China</a>, with the interest on Computer Vision, Deep learning and Natural Language Processing. </p>
-    <p> Currently, I am a Research Assistant working with Prof. <a href="http://www.ntu.edu.sg/home/sinnopan/">Sinno Jialin Pan</a> in the beautiful campus of Nanyang Technological University, where I focus on the research of computer vision and transfer learning. Before that, I spend a summer in the Computer Vision Lab of University of Manitoba as a Mitacs Globlink Intern, working with Prof. <a href="http://www.cs.umanitoba.ca/~ywang/">Yang Wang</a>.</p>
-    <p> I will join UNC as a PhD student in fall 2017, drop me an email if you are interested in chatting with me.</p>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+          integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+          crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+          integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+          crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+          integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+          crossorigin="anonymous"></script>
+
+  <!-- Place this tag in your head or just before your close body tag. -->
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+
+  <title>Jie Lei</title>
+</head>
+<body>
+<div class="main">
+  <div class="container"></div>
+
+  <div class="name">
+    <h1>Jie Lei</h1>
+  </div>
+
+  <div class="header">
+
+    <table class="table-header">
+      <tbody>
+      <tr>
+        <td align="top">
+          <img class="me" src="images/jielei_oldtown_small.jpg" alt="Jie Lei" style="width:220px;">
+          <p style="font-size: x-small">Old Town, San Diego, May 2019 (Courtesy of Qin)</p>
+        </td>
+        <td align="left">
+          <p>I am a final year PhD student at UNC Chapel Hill, working on
+            vision and language.
+            My advisors are <a target="_blank" href="http://tamaraberg.com/">Tamara L. Berg</a>
+            and <a target="_blank" href="https://www.cs.unc.edu/~mbansal">Mohit Bansal</a>.</p>
+
+          <p>I earned my bachelor's degree in computer science from Yingcai Honors College, <a
+              href="http://www.uestc.edu.cn/">University
+            of Electronic Science and Technology of China</a> (UESTC) in 2017.
+            I am a receipt of the <a href="https://research.adobe.com/fellowship/previous-fellowship-award-winners/">Adobe Research Fellowship</a> and the <a
+                href="http://cvpr2021.thecvf.com/node/329">CVPR 2021 Best Student Paper Honorable Mention</a> award.
+          </p>
+
+          <p>Personal updates: I will join <a href="https://ai.facebook.com/">Meta AI</a> as a research scientist in June 2022, based in Seattle.
+          </p>
+
+          <p>
+            <a href="https://scholar.google.com/citations?user=SZN9FLIAAAAJ&hl=en"><img
+                src="./images/google_scholar_icon.png" alt="google scholar" class="icon"></a>
+            <a href="https://github.com/jayleicn"><img src="./images/github_icon.png" alt="github" class="icon"></a>
+            <a href="https://twitter.com/jayleicn"><img src="./images/twitter_icon.png" alt="twitter" class="icon"></a>
+            <a href="cv/cv_jielei.pdf"><img src="./images/cv_icon.png" alt="cv" class="icon"></a>
+          </p>
+          <p><b>Email</b>: jielei [at] cs.unc.edu<br><b>Office</b>: SN 260, 201 S. Columbia St. Chapel Hill,
+            NC 27599-3175<br></p>
+        </td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <hr>
+
+  <div class="news">
+    <h2>News</h2>
+    <ul>
+      <li><span>Mar 2022</span> &raquo; Our workshop <a href="https://sites.google.com/view/t4v-cvpr22">T4V: Transformers for Vision</a> is accepted
+         at CVPR 2022.</li>
+      <li><span>Jun 2021</span> &raquo; We are hosting <a href="https://value-benchmark.github.io/challenge_2021.html">VALUE Challenge</a> for video and language understanding at ICCV 2021
+        <a href="https://sites.google.com/view/iccv21clvl/">CLCV workshop</a>, please join!</li>
+      <li><span>Jun 2021</span> &raquo; <a href="https://arxiv.org/abs/2102.06183">ClipBERT</a> won <a
+          href="http://cvpr2021.thecvf.com/node/329">CVPR 2021 Best Student Paper Honorable Mention</a>! &#128525;
+      </li>
+      <li><span>Mar 2021</span> &raquo; <a href="https://arxiv.org/abs/2102.06183">ClipBERT</a> is accepted as an oral
+        paper at CVPR 2021.
+      </li>
+      <li><span>Feb 2021</span> &raquo; Received <a
+          href="https://research.adobe.com/fellowship/previous-fellowship-award-winners/">Adobe Research Fellowship</a>,
+        thanks Adobe!
+      </li>
+      <li><span>Jan 2021</span> &raquo; Research Internship @Facebook AI, working with <a href="https://lichengunc.github.io/">Licheng Yu</a>,
+        <a href="https://xinleic.xyz/">Xinlei Chen</a> and <a href="https://n-zhang.github.io/">Ning Zhang</a>.</li>
+      <li><span>May 2020</span> &raquo; Research Internship @Microsoft, working with
+        <a href="https://scholar.google.com/citations?user=WR875gYAAAAJ&hl=en">Linjie Li</a>, <a
+            href="https://luoweizhou.github.io/">Luowei Zhou</a>, <a href="http://zhegan27.github.io/">Zhe Gan</a> and
+        <a href="https://www.linkedin.com/in/jingjing-liu-65703431/">Jingjing Liu</a>.
+      </li>
+      <li><span>Jan 2020</span> &raquo; Released <a href="https://tvr.cs.unc.edu/">TVR/TVC Datasets</a> for large-scale
+        video-subtitle moment retrieval and captioning,
+      </li>
+      <li><span>May 2019</span> &raquo; Research Internship @Tencent AI Lab, Seattle, with
+        <a href="http://www.deepcv.net/">Liwei Wang</a>, <a
+            href="https://scholar.google.com/citations?hl=en&user=S6OFEFEAAAAJ">Yelong Shen</a> and
+        <a href="https://scholar.google.com/citations?user=tMY31_gAAAAJ&hl=en">Dong Yu</a></li>
+      <li><span>Apr 2019</span> &raquo; New paper/dataset, <a href="https://arxiv.org/abs/1904.11574">TVQA+:
+        Spatio-Temporal Grounding for Video Question Answering</a>.
+      </li>
+      <li><span>Nov 2018</span> &raquo; <a href="https://github.com/jayleicn/TVQA">PyTorch Code</a> for TVQA paper is
+        released.
+      </li>
+      <li><span>Sep 2018</span> &raquo; <a target="_blank" href="http://tvqa.cs.unc.edu/">TVQA Dataset</a> is released.
+      </li>
+      <li><span>Aug 2017</span> &raquo; I joined <a target="_blank" href="http://www.unc.edu/">UNC</a> as a PhD student.
+      </li>
+      <!--      <li><span>Oct 2016</span> &raquo; Research assistant @Nanyang Technological University, working with Prof.-->
+      <!--        <a target="_blank" href="http://www.ntu.edu.sg/home/sinnopan/">Sinno Jialin Pan</a>.-->
+      <!--      </li>-->
+      <!--      <li><span>Jul 2016</span> &raquo; Research intern @University of Manitoba, working with Prof. <a target="_blank"-->
+      <!--                                                                                                       href="http://www.cs.umanitoba.ca/~ywang/">Yang-->
+      <!--        Wang</a>.-->
+      <!--      </li>-->
+      <!--      <li><span>Jan 2016</span> &raquo; Received a 2016 <a target="_blank"-->
+      <!--                                                           href="https://www.mitacs.ca/en/programs/globalink/globalink-research-internship">Globalink-->
+      <!--        Research-->
+      <!--        Intern Award</a> from Mitacs Org. Canada.-->
+      <!--      </li>-->
+    </ul>
+  </div>
+
+  <!--<hr>-->
 
 
-  <h1>News</h1>
-  <ul class="posts">
-    <li><span>10 Apr 2017</span> &raquo; I will join <a href="http://www.unc.edu/">UNC</a> as a PhD student this fall, where I will focus on vision and NLP.</li>
-    <li><span>12 Oct 2016</span> &raquo; Research assistant @Nanyang Technological University, working with Prof. <a href="http://www.ntu.edu.sg/home/sinnopan/">Sinno Jialin Pan</a>.</li>
-    <li><span>10 Jul 2016</span> &raquo; Research intern @University of Manitoba, working with Prof. <a href="http://www.cs.umanitoba.ca/~ywang/">Yang Wang</a>.</li>
-    <li><span>01 Apr 2016</span> &raquo; <a href="pdf/ICM.pdf">Meritorious Winner</a> (First Prize) at the 2016 Interdisciplinary Contest In Modeling.</a></li>
-    <li><span>28 Jan 2016</span> &raquo; Received a 2016 <a href="https://www.mitacs.ca/en/programs/globalink/globalink-research-internship">Globalink Research Intern award</a> from Mitacs Inc. Canada.</li>
-  </ul>
+  <div class="papers">
+    <h2>Publications & Preprints</h2>
 
-  <h1>Blog Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
--->
+    <!--VIMPAC-->
+    <div class="row my-3">
+      <div class="col-lg-4">
+        <div class="paper-img-wrapper">
+          <img class="paper-img" src="images/vimpac.jpg" alt="vimpac">
+        </div>
+      </div>
+      <div class="col-lg-8 my-auto">
+        <div class="paper-text">
+          <div class="paper-title">
+            VIMPAC: Video Pre-Training via Masked Token Prediction and Contrastive Learning
+          </div>
+          <div class="paper-authors">
+            Hao Tan*, <b>Jie Lei*</b>, Thomas Wolf, Mohit Bansal
+          </div>
 
-<!--   <h1>Noteworthy Open Source Projects and Specifications</h1>
-  <ul class="posts">
-    <li><a href="http://github.com/jekyll/jekyll/">Jekyll:</a> A simple, blog aware, static site generator (used for this site).</li>
-    <li><a href="http://semver.org">Semantic Versioning:</a> A meaningful method for incrementing version numbers.</li>
-    <li><a href="http://github.com/toml-lang/toml">TOML:</a> Tom's Obvious, Minimal Language.</li>
-    <li><a href="http://github.com/mojombo/god/">God:</a> Ruby process monitoring framework with easy extensibility.</li>
-    <li><a href="http://github.com/mojombo/chronic/">Chronic:</a> Ruby natural language date/time parser.</li>
-    <li><a href="http://tomdoc.org">TomDoc:</a> Code documentation for humans.</li>
-    <li><a href="http://github.com/mojombo/proxymachine/">ProxyMachine:</a> Layer 7 routing proxy in Ruby with Event Machine.</li>
-    <li><a href="http://github.com/github/gollum/">Gollum:</a> A simple, Git-powered wiki with a sweet API and local frontend.</li>
-    <li><a href="http://github.com/mojombo/grit/">Grit:</a> Object oriented Ruby bindings for Git (used by GitHub).</li>
-    <li><a href="http://github.com/mojombo/ernie/">Ernie:</a> Ruby/Erlang Hybrid BERT-RPC server.</li>
-  </ul> -->
+          <div class="paper-meta">
+            <span class="badge badge-info">arXiv 2021</span>
+            <a target="_blank" href="https://arxiv.org/abs/2106.11250">[PDF]</a>
+            <a target="_blank" href="https://github.com/airsplay/vimpac">[Code]</a>
+            <a class="github-button" href="https://github.com/airsplay/vimpac" data-icon="octicon-star"
+               data-show-count="true" aria-label="Star airsplay/vimpac on GitHub">Star</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--MomentDETR-->
+    <div class="row my-3">
+      <div class="col-lg-4">
+        <div class="paper-img-wrapper">
+          <img class="paper-img" src="images/moment_detr.png" alt="moment-detr">
+        </div>
+      </div>
+      <div class="col-lg-8 my-auto">
+        <div class="paper-text">
+          <div class="paper-title">
+            QVHighlights: Detecting Moments and Highlights in Videos via Natural Language Queries
+          </div>
+          <div class="paper-authors">
+            <b>Jie Lei</b>, Tamara L. Berg, Mohit Bansal
+          </div>
+
+          <div class="paper-meta">
+            <span class="badge badge-info">NeurIPS 2021</span>
+            <a target="_blank" href="https://arxiv.org/abs/2107.09609">[PDF]</a>
+            <a target="_blank" href="https://github.com/jayleicn/moment_detr">[Dataset & Moment-DETR Code]</a>
+            <a class="github-button" href="https://github.com/jayleicn/moment_detr" data-icon="octicon-star"
+               data-show-count="true" aria-label="Star jayleicn/moment_detr on GitHub">Star</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--VALUE-->
+    <div class="row my-3">
+      <div class="col-lg-4">
+        <div class="paper-img-wrapper">
+          <img class="paper-img" src="images/value.png" alt="value">
+        </div>
+      </div>
+      <div class="col-lg-8 my-auto">
+        <div class="paper-text">
+          <div class="paper-title">
+            VALUE: A Multi-Task Benchmark for Video-and-Language Understanding Evaluation
+          </div>
+          <div class="paper-authors">
+            Linjie Li*, <b>Jie Lei*</b>, Zhe Gan, Licheng Yu, Yen-Chun Chen, Rohit Pillai, Yu Cheng, Luowei Zhou, Xin
+            Eric Wang, William Yang Wang, Tamara L. Berg, Mohit Bansal, Jingjing Liu, Lijuan Wang, Zicheng Liu
+          </div>
+
+          <div class="paper-meta">
+            <span class="badge badge-info">NeurIPS 2021 - Datasets and Benchmarks Track</span>
+            <a target="_blank" href="https://arxiv.org/abs/2106.04632">[PDF]</a>
+            <a target="_blank" href="https://github.com/VALUE-Leaderboard/StarterCode">[Code]</a>
+            <a target="_blank" href="https://value-leaderboard.github.io/">[Leaderboard & Challenge]</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Adv VQA-->
+    <div class="row my-3">
+      <div class="col-lg-4">
+        <div class="paper-img-wrapper">
+          <img class="paper-img" src="images/advvqa.png" alt="value">
+        </div>
+      </div>
+      <div class="col-lg-8 my-auto">
+        <div class="paper-text">
+          <div class="paper-title">
+            Adversarial VQA: A New Benchmark for Evaluating the Robustness of VQA Models
+          </div>
+          <div class="paper-authors">
+            Linjie Li, <b>Jie Lei</b>, Zhe Gan, Jingjing Liu
+          </div>
+
+          <div class="paper-meta">
+            <span class="badge badge-info">ICCV 2021</span>
+            <span class="badge badge-success">Oral</span>
+            <a target="_blank" href="https://arxiv.org/abs/2106.00245">[PDF]</a>
+            <a target="_blank" href="https://adversarialvqa.github.io/">[Dataset]</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--mTVR-->
+    <div class="row my-3">
+      <div class="col-lg-4">
+        <div class="paper-img-wrapper">
+          <!--          <img class="paper-img" style="width:180px!important;" src="images/mtvr.jpg" alt="mTVR">-->
+          <img class="paper-img" src="images/mtvr.jpg" alt="mTVR">
+        </div>
+      </div>
+      <div class="col-lg-8 my-auto">
+        <div class="paper-text">
+
+          <div class="paper-title">
+            mTVR: Multilingual Moment Retrieval in Videos
+          </div>
+
+          <div class="paper-authors">
+            <b>Jie Lei</b>, Tamara L. Berg, Mohit Bansal
+          </div>
+
+          <div class="paper-meta">
+            <span class="badge badge-info">ACL 2021</span>
+            <a target="_blank" href="https://arxiv.org/abs/2108.00061">[PDF]</a>
+            <a target="_blank" href="https://github.com/jayleicn/mTVRetrieval">[Code]</a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+    <!--VL-T5-->
+    <div class="row my-3">
+      <div class="col-lg-4">
+        <div class="paper-img-wrapper">
+          <img class="paper-img" src="images/vl_t5.png" alt="VL-T5">
+        </div>
+      </div>
+      <div class="col-lg-8 my-auto my-auto">
+        <div class="paper-text">
+          <div class="paper-title">
+            Unifying Vision-and-Language Tasks via Text Generation
+          </div>
+          <div class="paper-authors">
+            Jaemin Cho, <b>Jie Lei</b>, Hao Tan, Mohit Bansal
+          </div>
+
+          <div class="paper-meta">
+            <span class="badge badge-info">ICML 2021</span>
+            <a target="_blank" href="https://arxiv.org/abs/2102.02779">[PDF]</a>
+            <a target="_blank" href="https://github.com/j-min/VL-T5">[Code]</a>
+            <a class="github-button" href="https://github.com/j-min/VL-T5" data-icon="octicon-star"
+               data-show-count="true" aria-label="Star j-min/VL-T5 on GitHub">Star</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!--DECEMBERT-->
+    <div class="row my-3">
+      <div class="col-lg-4">
+        <div class="paper-img-wrapper">
+          <img class="paper-img" src="images/decembert.png" alt="decembert">
+        </div>
+      </div>
+      <div class="col-lg-8 my-auto">
+        <div class="paper-text">
+          <div class="paper-title">
+            Improved Pre-Training from Noisy Instructional Videos via Dense Captions and Entropy Minimization
+          </div>
+          <div class="paper-authors">
+            Zineng Tang*, <b>Jie Lei*</b>, Mohit Bansal
+          </div>
+
+          <div class="paper-meta">
+            <span class="badge badge-info">NAACL 2021</span>
+            <a target="_blank" href="https://www.aclweb.org/anthology/2021.naacl-main.193/">[PDF]</a>
+            <a target="_blank" href="https://github.com/zinengtang/DeCEMBERT">[Code]</a>
+            <a class="github-button" href="https://github.com/zinengtang/DeCEMBERT" data-icon="octicon-star"
+               data-show-count="true" aria-label="Star zinengtang/DeCEMBERT on GitHub">Star</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!--ClipBERT-->
+    <div class="row my-3">
+      <div class="col-lg-4">
+        <div class="paper-img-wrapper">
+          <img class="paper-img" src="images/clip_bert.png" alt="VL-T5">
+        </div>
+      </div>
+      <div class="col-lg-8 my-auto">
+        <div class="paper-text">
+
+          <div class="paper-title">
+            Less is More: ClipBERT for Video-and-Language Learning via Sparse Sampling
+          </div>
+
+          <div class="paper-authors">
+            <b>Jie Lei</b>*, Linjie Li*, Luowei Zhou, Zhe Gan, Tamara L. Berg, Mohit Bansal, Jingjing Liu
+          </div>
+
+          <div class="paper-meta">
+            <span class="badge badge-info">CVPR 2021</span> <span class="badge badge-success">Best Student Paper Honorable Mention</span>
+            <span class="badge badge-success">Oral</span>
+            <a target="_blank" href="https://arxiv.org/abs/2102.06183">[PDF]</a>
+            <a target="_blank" href="https://github.com/jayleicn/ClipBERT">[Code]</a>
+            <a class="github-button" href="https://github.com/jayleicn/ClipBERT" data-icon="octicon-star"
+               data-show-count="true" aria-label="Star jayleicn/ClipBERT on GitHub">Star</a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!--VLEP-->
+    <div class="row my-3">
+      <div class="col-lg-4">
+        <div class="paper-img-wrapper">
+          <img class="paper-img" src="images/emnlp20_vlep.png" alt="VLEP">
+        </div>
+      </div>
+      <div class="col-lg-8 my-auto">
+        <div class="paper-text">
+          <div class="paper-title">
+            What is More Likely to Happen Next? Video-and-Language Future Event Prediction
+          </div>
+
+
+          <div class="paper-authors">
+            <b>Jie Lei</b>, Licheng Yu, Tamara L. Berg, Mohit Bansal
+          </div>
+
+          <div class="paper-meta">
+            <span class="badge badge-info">EMNLP 2020</span>
+            <a target="_blank" href="https://arxiv.org/abs/2010.07999">[PDF]</a>
+            <a target="_blank" href="#"></a>
+            <a target="_blank" href="https://github.com/jayleicn/VideoLanguageFuturePred">[VLEP Dataset]</a>
+            <!--            <a class="github-button" href="https://github.com/jayleicn/VideoLanguageFuturePred" data-icon="octicon-star"-->
+            <!--               data-show-count="true" aria-label="Star jayleicn/VideoLanguageFuturePred on GitHub">Star</a>-->
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!--TVR-->
+    <div class="row my-3">
+      <div class="col-lg-4">
+        <div class="paper-img-wrapper">
+          <img class="paper-img" src="images/tvr.png" alt="TVR">
+        </div>
+      </div>
+      <div class="col-lg-8 my-auto">
+        <div class="paper-text">
+          <div class="paper-title">
+            TVR: A Large-Scale Dataset for Video-Subtitle Moment Retrieval
+          </div>
+
+          <div class="paper-authors">
+            <b>Jie Lei</b>, Licheng Yu, Tamara L. Berg, Mohit Bansal
+          </div>
+
+
+          <div class="paper-meta">
+            <span class="badge badge-info">ECCV 2020</span>
+            <a target="_blank" href="https://arxiv.org/abs/2001.09099">[PDF]</a>
+            <a target="_blank" href="https://tvr.cs.unc.edu/">[TVR/TVC Datasets]</a>
+            <a target="_blank" href="./files/eccv20_tvr_talk.pptx">[Slides]</a>
+            <br>
+            <a target="_blank" href="https://github.com/jayleicn/TVRetrieval">[Retrieval Code]</a>
+            <a class="github-button" href="https://github.com/jayleicn/TVRetrieval" data-icon="octicon-star"
+               data-show-count="true" aria-label="Star jayleicn/TVRetrieval on GitHub">Star</a>
+            <a target="_blank" href="https://github.com/jayleicn/TVCaption">[Captioning Code]</a>
+            <a class="github-button" href="https://github.com/jayleicn/TVCaption" data-icon="octicon-star"
+               data-show-count="true" aria-label="Star jayleicn/TVCaption on GitHub">Star</a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!--MART-->
+    <div class="row mb-3">
+      <div class="col-lg-4">
+        <div class="paper-img-wrapper">
+          <img class="paper-img" src="images/mart.jpg" alt="MART">
+        </div>
+      </div>
+
+      <div class="col-lg-8 my-auto">
+        <div class="paper-text">
+          <div class="paper-title">
+            MART: Memory-Augmented Recurrent Transformer for Coherent Video Paragraph Captioning
+          </div>
+
+          <div class="paper-authors">
+            <b>Jie Lei</b>, Liwei Wang, Yelong Shen, Dong Yu, Tamara L. Berg, Mohit Bansal
+          </div>
+          <div class="paper-meta">
+            <span class="badge badge-info">ACL 2020</span>
+            <a href="https://arxiv.org/abs/2005.05402">[PDF]</a>
+            <a href="./files/acl20_mart_talk.pptx">[Slides]</a>
+            <a href="https://github.com/jayleicn/recurrent-transformer">[Code]</a>
+            <a class="github-button" href="https://github.com/jayleicn/recurrent-transformer"
+               data-icon="octicon-star" data-show-count="true"
+               aria-label="Star jayleicn/recurrent-transformer on GitHub">Star</a>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--TVQA PLUS-->
+    <div class="row mb-3">
+      <div class="col-lg-4">
+        <div class="paper-img-wrapper">
+          <img class="paper-img" src="images/tvqa_plus.jpg" alt="TVQA PLUS">
+        </div>
+      </div>
+      <div class="col-lg-8 my-auto">
+        <div class="paper-text">
+          <div class="paper-title">
+            TVQA+: Spatio-Temporal Grounding for Video Question Answering
+          </div>
+
+
+          <div class="paper-authors">
+            <b>Jie Lei</b>, Licheng Yu, Tamara L. Berg, Mohit Bansal
+          </div>
+          <div class="paper-meta">
+            <span class="badge badge-info">ACL 2020</span>
+            <a target="_blank" href="https://arxiv.org/abs/1904.11574">[PDF]</a>
+            <a href="./files/acl20_tvqa_plus_talk.pptx">[Slides]</a>
+            <a target="_blank" href="http://tvqa.cs.unc.edu/">[Dataset]</a>
+            <a target="_blank" href="https://github.com/jayleicn/TVQA-PLUS">[Code]</a>
+            <a class="github-button" href="https://github.com/jayleicn/TVQAplus"
+               data-icon="octicon-star" data-show-count="true"
+               aria-label="Star jayleicn/recurrent-transformer on GitHub">Star</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--TVQA-->
+    <div class="row mb-3">
+      <div class="col-lg-4">
+        <div class="paper-img-wrapper">
+          <img class="paper-img" src="images/tvqa.jpg" alt="TVQA">
+        </div>
+      </div>
+      <div class="col-lg-8 my-auto">
+        <div class="paper-text">
+          <div class="paper-title">
+            TVQA: Localized, Compositional Video Question Answering
+          </div>
+
+          <div class="paper-authors">
+            <b>Jie Lei</b>, Licheng Yu, Mohit Bansal, Tamara L. Berg
+          </div>
+
+          <div class="paper-meta">
+            <span class="badge badge-info">EMNLP 2018</span>
+            <span class="badge badge-success">Oral</span>
+            <a target="_blank" href="https://arxiv.org/abs/1809.01696">[PDF]</a>
+            <a href="./files/tvqa_emnlp18_oral.pptx">[Slides]</a>
+            <a target="_blank" href="http://tvqa.cs.unc.edu/">[Dataset]</a>
+            <a target="_blank" href="https://github.com/jayleicn/TVQA">[Code]</a>
+            <a class="github-button" href="https://github.com/jayleicn/TVQA" data-icon="octicon-star"
+               data-show-count="true" aria-label="Star jayleicn/TVQA on GitHub">Star</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!--CRV classification-->
+    <div class="row mb-3">
+      <div class="col-lg-4">
+        <div class="paper-img-wrapper">
+          <img class="paper-img" src="images/crv17.png" alt="image classification">
+        </div>
+      </div>
+      <div class="col-lg-8 my-auto">
+        <div class="paper-text">
+          <div class="paper-title">
+            Weakly Supervised Image Classification with Coarse and Fine Labels
+          </div>
+
+        </div>
+        <div class="paper-authors">
+          <b>Jie Lei</b>, Zhenyu Guo and Yang Wang
+        </div>
+
+        <div class="paper-meta">
+          <span class="badge badge-info">CRV 2017</span>
+          <a target="_blank" href="pdfs/crv17_classification.pdf">[PDF]</a>
+          <a target="_blank" href="https://github.com/jayleicn/classification-with-coarse-fine-labels">[Code]</a>
+          <a class="github-button" href="https://github.com/jayleicn/classification-with-coarse-fine-labels"
+             data-icon="octicon-star"
+             data-show-count="true" aria-label="Star jayleicn/classification-with-coarse-fine-labels on GitHub">Star</a>
+        </div>
+
+      </div>
+    </div>
 </div>
+
+
+<div class="projects">
+  <h2>Projects</h2>
+  <div class="row my-3">
+    <div class="col-lg-4">
+      <div class="paper-img-wrapper">
+        <img class="paper-img" src="images/anime.png">
+      </div>
+    </div>
+    <div class="col-lg-8 my-auto">
+      <div class="paper-text">
+        <div class="paper-title">
+          AnimeGAN: Create Anime Face using Generative Adversarial Networks
+        </div>
+        <div class="paper-authors">
+          <b>Jie Lei</b>
+        </div>
+        <div class="paper-conference">
+          A simple GAN model that could automatically generate anime girl faces.
+        </div>
+<!--        <div style="vertical-align: bottom!important;">-->
+
+        <div class="paper-meta">
+          <span class="badge badge-info">GitHub 2017</span>
+          <a target="_blank" href="https://github.com/jayleicn/animeGAN">[Code & AnimeFace Dataset]</a>
+          <a class="github-button" href="https://github.com/jayleicn/animeGAN" data-icon="octicon-star"
+             data-show-count="true" aria-label="Star jayleicn/animeGAN on GitHub">Star</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--<hr>-->
+
+<div class="misc">
+  <h2>Miscs</h2>
+  <ul>
+    <li>My Chinese name is 雷杰. I am from <a href="https://en.wikipedia.org/wiki/Sichuan">Sichuan</a>, the hometown of
+      pandas.
+    </li>
+    <li>I am <strike>a big fan</strike> of <i>Attack on Titan</i>.</li>
+  </ul>
+</div>
+
+
+</div>
+</body>
+</html>

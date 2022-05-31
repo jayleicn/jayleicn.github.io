@@ -1,0 +1,131 @@
+body {
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 16px !important;
+    /*font-weight: 300 !important;*/
+    color: #555;
+}
+
+div {
+    clear: left;
+}
+
+h1 {
+    font-size: 2em;
+    color: #f88379;
+}
+
+h2 {
+    font-size: 1.2em;
+    color: #f88379;
+}
+
+a {
+    text-decoration: none
+}
+
+a:link, a:visited {
+    color: #4B9CE3;
+}s
+
+a:hover {
+    text-decoration: underline;
+    color: #f88379;
+}
+
+.main {
+    width: 1020px;
+    /*border-style: solid;*/
+    /*border-color: #eee;*/
+    /*border-radius: 10px;*/
+    margin: 10px auto;
+    padding: 40px;
+}
+
+
+.name {
+    margin-left: 0;
+}
+
+.header{
+    line-height: 1.4em;
+    margin: 0;
+}
+
+img.me {
+    margin-right: 30px;
+    border:2px solid #fff;
+    border-radius: 5px;
+}
+
+.news {
+    margin-top: 40px;
+}
+
+.news ul {
+    list-style-type: none;
+    line-height: 1.75em;
+    margin: 0;
+    padding: 0;
+}
+.news li {
+    margin: 0;
+    padding: 0;
+}
+
+.news span {
+    color: #aaa;
+    font-family: Monaco, "Courier New", monospace;
+    font-size: 0.8em;
+}
+
+.papers {
+    margin-top: 40px;
+}
+
+.paper-img-wrapper {
+    float: left;
+    padding-right: 0 !important;
+
+}
+
+.paper-img {
+    width:280px !important;
+    /*max-height: 150px;*/
+}
+
+.paper-text {
+    text-align: left;
+    line-height: 1.75em;
+}
+
+.paper-title {
+    font-weight: bold;
+}
+
+.paper-authors {
+    /*font-style: italic;*/
+}
+
+.paper-conference {
+  font-style: italic;
+}
+
+.projects {
+    margin-top: 40px;
+}
+
+.misc {
+    margin-top: 40px;
+}
+
+.text-red {
+  color: #f88379 !important;
+}
+
+.icon {
+  height: 25px;
+}
+
+.borderless td, .borderless th {
+    border: none;
+}

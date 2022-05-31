@@ -1,0 +1,208 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{fontawesome}
+\definecolor{codelinkcolor}{rgb}{0., 0., 0.}
+% \definecolor{bluedefrance}{rgb}{0.19, 0.55, 0.91}
+
+\name{Jie Lei} % Your name
+
+
+\address{Email: jielei@cs.unc.edu \hfill Website: \href{https://www.cs.unc.edu/~jielei/}{https://www.cs.unc.edu/$\sim$jielei/}}
+\address{Phone: 919-564-8651\hfill
+         Github: \href{https://github.com/jayleicn}{https://github.com/jayleicn} }
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+{\bf University of North Carolina at Chapel Hill} \hfill {Aug 2017  -  Present} \\ 
+{\sl Ph.D.} in Computer Science, Expected May 2022 \\
+Advisors: \href{http://www.tamaraberg.com/}{Tamara L. Berg} and \href{http://www.cs.unc.edu/~mbansal/}{Mohit Bansal}
+
+{\bf University of Electronic Science and Technology of China (UESTC)} \hfill {Sep 2013 - Jun 2017} \\ 
+{\sl B.Eng} in Computer Science \& Technology, Yingcai Honors College\\
+Advisor: \href{https://personal.ntu.edu.sg/sinnopan/}{Sinno Jialin Pan} (NTU, Singapore)
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Experience}
+
+\begin{rSubsection}{University of North Carolina at Chapel Hill}{Aug 2017 - Present}{Research Assistant with \href{http://www.tamaraberg.com/}{Tamara L. Berg} and \href{http://www.cs.unc.edu/~mbansal/}{Mohit Bansal}}{Chapel Hill, NC}
+\item Focusing on multimodal video and language understanding.
+\item VLEP dataset for video-and-language future event prediction. (EMNLP 2020)
+\item TVR and TVC datasets for video-subtitle moment retrieval and captioning. (ECCV 2020)
+\item TVQA and TVQA+ for large-scale spatio-temporal video question answering. (EMNLP 2018, ACL 2020)
+\end{rSubsection}
+
+
+%------------------------------------------------
+
+\begin{rSubsection}{Microsoft Dynamics 365 AI Research}{May 2020 - Aug 2020}{Research Intern with 
+    \href{https://luoweizhou.github.io/}{Luowei Zhou} and
+    \href{https://www.linkedin.com/in/jingjing-liu-65703431/}{Jingjing Liu}} {Bellevue, WA}
+    \item End-to-end vision and language pretraining.
+    \end{rSubsection}
+
+
+%------------------------------------------------
+
+\begin{rSubsection}{Tencent AI Lab}{May 2019 - Aug 2019}{Research Intern with 
+    \href{http://www.deepcv.net/}{Liwei Wang}, 
+    \href{https://scholar.google.com/citations?hl=en&user=S6OFEFEAAAAJ}{Yelong Shen} 
+    and \href{https://scholar.google.com/citations?user=tMY31_gAAAAJ&hl=en}{Dong Yu}} {Seattle, WA}
+    \item Recurrent transformer for coherent video paragraph captioning. (ACL 2020)
+    \end{rSubsection}
+
+%------------------------------------------------
+
+\begin{rSubsection}{Nanyang Technological University}{Oct 2016 - Apr 2017}{Research Intern with \href{https://personal.ntu.edu.sg/sinnopan/}{Sinno Jialin Pan}}{Singapore}
+    \item Transfer learning in deep hash models for fast image retrieval.
+    \end{rSubsection}
+
+%------------------------------------------------
+
+\begin{rSubsection}{University of Manitoba}{Jul 2016 - Oct 2016}{Research Intern with \href{https://www.cs.umanitoba.ca/~ywang/}{Yang Wang}}{Winnipeg, Canada}
+    \item Weakly supervised image classification using hierarchical image labels. (CRV 2017)
+    \end{rSubsection}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Papers}
+    \item {[8] \textbf{Jie Lei}*, Linjie Li*, Luowei Zhou, Zhe Gan, Tamara L. Berg, Mohit Bansal, Jingjing Liu.
+   ``Less is More: ClipBERT for Video-and-Language Learning via Sparse Sampling",
+   Under Review 2020. (* denotes equal contribution).  \href{https://www.cs.unc.edu/~jielei/hidden/less_is_more_preprint.pdf}{\color{codelinkcolor}Preprint Link}
+   }        
+    \item {[7] Zineng Tang, \textbf{Jie Lei}, Mohit Bansal,
+   ``Learning from Noisy Instructional Videos.",
+   Under Review 2020.    
+   }    
+    \item {[6] \textbf{Jie Lei}, Licheng Yu, Tamara L. Berg, Mohit Bansal,
+   ``What is More Likely to Happen Next? Video and Language Future Event Prediction",
+   EMNLP 2020.    
+   \href{https://arxiv.org/abs/2010.07999}{\color{codelinkcolor}\faFile~Paper},~
+   \href{https://github.com/jayleicn/VideoLanguageFuturePred}{\color{codelinkcolor}\faDatabase~Dataset}
+   }    
+   \item {[5] \textbf{Jie Lei}, Licheng Yu, Tamara L. Berg, Mohit Bansal,
+   ``TVR: A Large-Scale Dataset for Video-Subtitle Moment Retrieval'',
+    ECCV 2020. 
+    \href{https://arxiv.org/abs/2001.09099}{\color{codelinkcolor}\faFile~Paper},~
+    \href{https://tvr.cs.unc.edu/}{\color{codelinkcolor}\faDatabase~Dataset},~
+    \href{https://github.com/jayleicn/TVRetrieval}{\color{codelinkcolor}\faGithub~Retrieval Code},~
+    \href{https://github.com/jayleicn/TVCaption}{\color{codelinkcolor}\faGithub~Captioning Code}
+    } 
+   \item {[4] \textbf{Jie Lei}, Liwei Wang, Yelong Shen, Dong Yu, Tamara L. Berg, Mohit Bansal,
+         ``MART: Memory-Augmented Recurrent Transformer for Coherent Video Paragraph Captioning'',
+         ACL 2020.
+         \href{https://arxiv.org/abs/2005.05402}{\color{codelinkcolor}\faFile~Paper},~
+         \href{https://github.com/jayleicn/recurrent-transformer}{\color{codelinkcolor}\faGithub~Code}
+         }               
+   \item {[3] \textbf{Jie Lei}, Licheng Yu, Tamara L. Berg, Mohit Bansal,
+               ``TVQA+: Spatio-Temporal Grounding for Video Question Answering'',
+               ACL 2020.
+               \href{https://arxiv.org/abs/1904.11574}{\color{codelinkcolor}\faFile~Paper},~
+               \href{http://tvqa.cs.unc.edu/}{\color{codelinkcolor}\faDatabase~Dataset},~
+               \href{https://github.com/jayleicn/TVQA-PLUS}{\color{codelinkcolor}\faGithub~Code}
+               }
+    \item {[2] \textbf{Jie Lei}, Licheng Yu, Mohit Bansal, Tamara L. Berg, 
+               ``TVQA: Localized, Compositional Video Question Answering'',
+               EMNLP 2018 (oral).
+               \href{https://arxiv.org/abs/1809.01696}{\color{codelinkcolor}\faFile~Paper},~
+               \href{http://tvqa.cs.unc.edu/}{\color{codelinkcolor}\faDatabase~Dataset},~
+               \href{https://github.com/jayleicn/TVQA}{\color{codelinkcolor}\faGithub~Code}
+               }
+    \item {[1] \textbf{Jie Lei}, Zhenyu Guo, Yang Wang.
+                ``Weakly Supervised Image Classification with Coarse and Fine Labels.''
+                CRV 2017.
+                \href{https://www.cs.unc.edu/~jielei/pdfs/crv17_classification.pdf}{\color{codelinkcolor}\faFile~Paper},~
+                \href{https://github.com/jayleicn/classification-with-coarse-fine-labels}{\color{codelinkcolor}\faGithub~Code}
+                }
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+% Projects
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Projects}
+    \item {[1] \textbf{Jie Lei},
+                ``AnimeGAN: Create Anime Face using Generative Adversarial Networks'',
+                Github 2017 .
+                \\ $\cdot$\quad Implementation of GANs for anime face generation. 
+                \href{https://github.com/jayleicn/animeGAN}{\color{codelinkcolor}\faGithub~Data \& Code} (\textbf{1K+ stars})
+                \\ $\cdot$\quad Automatic pipeline for large-scale anime face dataset construction from the web.}
+\end{rSection}
+
+
+%----------------------------------------------------------------------------------------
+% Awards
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Awards}
+\item {\textbf{\href{https://research.adobe.com/fellowship/}{Adobe Research Fellowship}}, Adobe, USA. } \hfill {2021}
+\item {\textbf{Outstanding Undergraduate Thesis}, UESTC, China} \hfill {2017} 
+\item {\textbf{\href{https://www.mitacs.ca/en/programs/globalink/globalink-research-internship}{Globalink Research Intern Award}} (200 undergraduates across China), \href{https://www.mitacs.ca/en}{Mitacs, Canada}. } \hfill {2016}
+\item {\textbf{Meritorious Winner}, Interdisciplinary Contest In Modeling, COMAP, USA} \hfill {2016} 
+\item {\textbf{Scholarship for Academic Excellence} (5\%), UESTC, China} \hfill {2015-2016}
+\item {\textbf{Futong Scholarship} (2\%), Futong Group, China} \hfill {2014}
+\end{rSection}
+
+
+%----------------------------------------------------------------------------------------
+% Activities
+%----------------------------------------------------------------------------------------
+
+
+\begin{rSection}{Academic Service}
+    \textbf{Journal and Conference Reviewer}: TPAMI, IJCV, CVPR 2019-2021, ICCV 2019, ECCV 2020, ACM MM 2020 Interactive Arts, AAAI 2021 \\
+    \textbf{Workshop Program Committe}: NeurIPS HAMLETS 2020
+    
+    % Presenter at UNC middle/high school open house \hfill 2018
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	TECHNICAL
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Technical \& Language}
+
+    \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+    Programming & Python, JavaScript, HTML/CSS, Matlab, C$\backslash$C++, Lua\\
+    Tools & PyTorch, Linux, Vim, Git, Latex.  \\
+    \end{tabular}
+    
+    \end{rSection}
+
+
+\end{document}
