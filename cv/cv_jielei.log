@@ -1,13 +1,13 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  17 JAN 2022 13:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  22 JUN 2022 09:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/jielei/Dropbox/Project/public_html/cv/cv_jielei.tex
-(/Users/jielei/Dropbox/Project/public_html/cv/cv_jielei.tex
+**/Users/jielei/Dropbox/Project/jayleicn.github.io/cv/cv_jielei.tex
+(/Users/jielei/Dropbox/Project/jayleicn.github.io/cv/cv_jielei.tex
 LaTeX2e <2018-04-01> patch level 2
 Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
-(/Users/jielei/Dropbox/Project/public_html/cv/resume.cls
+(/Users/jielei/Dropbox/Project/jayleicn.github.io/cv/resume.cls
 Document Class: resume 2010/07/10 v0.9 Resume class
 (/usr/local/texlive/2018/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
@@ -185,7 +185,7 @@ Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/fontawesome/fontawesome.sty
 Package: fontawesome 2016/05/15 v4.6.3.1 font awesome icons
- (/usr/local/texlive/2018/texmf-dist/tex/latex/fontawesome/fontawesomesymbols-generic.tex) (/usr/local/texlive/2018/texmf-dist/tex/latex/fontawesome/fontawesomesymbols-pdftex.tex)) (/Users/jielei/Dropbox/Project/public_html/cv/cv_jielei.aux)
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/fontawesome/fontawesomesymbols-generic.tex) (/usr/local/texlive/2018/texmf-dist/tex/latex/fontawesome/fontawesomesymbols-pdftex.tex)) (/Users/jielei/Dropbox/Project/jayleicn.github.io/cv/cv_jielei.aux)
 \openout1 = `cv_jielei.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
@@ -249,7 +249,7 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 40.
 LaTeX Info: Redefining \pageref on input line 40.
 LaTeX Info: Redefining \nameref on input line 40.
- (/Users/jielei/Dropbox/Project/public_html/cv/cv_jielei.out) (/Users/jielei/Dropbox/Project/public_html/cv/cv_jielei.out)
+ (/Users/jielei/Dropbox/Project/jayleicn.github.io/cv/cv_jielei.out) (/Users/jielei/Dropbox/Project/jayleicn.github.io/cv/cv_jielei.out)
 \@outlinefile=\write3
 \openout3 = `cv_jielei.out'.
 
@@ -272,42 +272,39 @@ Overfull \hbox (30.0pt too wide) in paragraph at lines 40--40
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 40.
+(Font)              <7> on input line 51.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 40.
-LaTeX Font Info:    Try loading font information for U+fontawesometwo on input line 126.
-(/usr/local/texlive/2018/texmf-dist/tex/latex/fontawesome/ufontawesometwo.fd
-File: ufontawesometwo.fd 2016/05/22 Font definitions for U/fontawesometwo.
-)
-LaTeX Font Info:    Try loading font information for U+fontawesomethree on input line 134.
- (/usr/local/texlive/2018/texmf-dist/tex/latex/fontawesome/ufontawesomethree.fd
-File: ufontawesomethree.fd 2016/05/22 Font definitions for U/fontawesomethree.
-) [1
+(Font)              <5> on input line 51.
+[1
 
 {/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 261.
- [2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 261.
- (/Users/jielei/Dropbox/Project/public_html/cv/cv_jielei.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 261.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 261.
+LaTeX Font Info:    Try loading font information for U+fontawesometwo on input line 215.
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/fontawesome/ufontawesometwo.fd
+File: ufontawesometwo.fd 2016/05/22 Font definitions for U/fontawesometwo.
+) [2]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 264.
+ [3]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 264.
+ (/Users/jielei/Dropbox/Project/jayleicn.github.io/cv/cv_jielei.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 264.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 264.
 Package rerunfilecheck Info: File `cv_jielei.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 261.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 264.
  ) 
 Here is how much of TeX's memory you used:
- 7162 strings out of 492649
- 103901 string characters out of 6129622
- 202667 words of memory out of 5000000
- 11014 multiletter control sequences out of 15000+600000
- 5746 words of font info for 21 fonts, out of 8000000 for 9000
+ 7154 strings out of 492649
+ 103691 string characters out of 6129622
+ 202655 words of memory out of 5000000
+ 11009 multiletter control sequences out of 15000+600000
+ 5568 words of font info for 20 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 29i,5n,35p,396b,389s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomethree.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on /Users/jielei/Dropbox/Project/public_html/cv/cv_jielei.pdf (2 pages, 112784 bytes).
+ 29i,5n,35p,328b,389s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on /Users/jielei/Dropbox/Project/jayleicn.github.io/cv/cv_jielei.pdf (3 pages, 101309 bytes).
 PDF statistics:
- 108 PDF objects out of 1000 (max. 8388607)
- 96 compressed objects within 1 object stream
- 3 named destinations out of 1000 (max. 500000)
+ 74 PDF objects out of 1000 (max. 8388607)
+ 61 compressed objects within 1 object stream
+ 4 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
