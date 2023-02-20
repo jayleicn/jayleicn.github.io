@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1676854304 "/Users/jielei/Dropbox/Project/jayleicn.github.io/cv/cv_jielei.tex" "/Users/jielei/Dropbox/Project/jayleicn.github.io/cv/cv_jielei.pdf" "cv_jielei" 1676854380
+["pdflatex"] 1676854304 "/Users/jielei/Dropbox/Project/jayleicn.github.io/cv/cv_jielei.tex" "/Users/jielei/Dropbox/Project/jayleicn.github.io/cv/cv_jielei.pdf" "cv_jielei" 1676854396
   "/Users/jielei/Dropbox/Project/jayleicn.github.io/cv/cv_jielei.aux" 1676854304 662 b2b94621371df8d9296b8bf5bec1b851 ""
-  "/Users/jielei/Dropbox/Project/jayleicn.github.io/cv/cv_jielei.tex" 1676854379 12904 badd268bdd49fe88c889420cebdd5e80 ""
+  "/Users/jielei/Dropbox/Project/jayleicn.github.io/cv/cv_jielei.tex" 1676854395 12904 badd268bdd49fe88c889420cebdd5e80 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc" 1480098667 2679 32dd8ae231bf4a0752b98f62dc097183 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1480098701 1328 c834bbb027764024c09d3d2bf908b5f0 ""
@@ -53,12 +53,12 @@
   "/usr/local/texlive/2018/texmf.cnf" 1523934483 577 0b39adfd7c93507ff20c9c14c2f1a33f ""
   "cv_jielei.aux" 1676854304 662 b2b94621371df8d9296b8bf5bec1b851 ""
   "cv_jielei.out" 1676854304 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "cv_jielei.tex" 1676854379 12904 badd268bdd49fe88c889420cebdd5e80 ""
+  "cv_jielei.tex" 1676854395 12904 badd268bdd49fe88c889420cebdd5e80 ""
   "resume.cls" 1654004110 4801 c6e0345fa37a677e94d0b82e2edfb5ac ""
   (generated)
+  "cv_jielei.out"
+  "/Users/jielei/Dropbox/Project/jayleicn.github.io/cv/cv_jielei.log"
   "cv_jielei.pdf"
   "/Users/jielei/Dropbox/Project/jayleicn.github.io/cv/cv_jielei.pdf"
-  "/Users/jielei/Dropbox/Project/jayleicn.github.io/cv/cv_jielei.log"
-  "cv_jielei.log"
-  "cv_jielei.out"
   "cv_jielei.aux"
+  "cv_jielei.log"
