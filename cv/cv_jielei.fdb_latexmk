@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1678249770 "/Users/jielei/Dropbox/Project/jayleicn.github.io/cv/cv_jielei.tex" "/Users/jielei/Dropbox/Project/jayleicn.github.io/cv/cv_jielei.pdf" "cv_jielei" 1678249772
-  "/Users/jielei/Dropbox/Project/jayleicn.github.io/cv/cv_jielei.aux" 1678249771 662 b2b94621371df8d9296b8bf5bec1b851 ""
-  "/Users/jielei/Dropbox/Project/jayleicn.github.io/cv/cv_jielei.tex" 1678249769 13394 d258abd89ac388d3a85557677f8e0dfb ""
+["pdflatex"] 1688773571 "/Users/jielei/Dropbox/Project/jayleicn.github.io/cv/cv_jielei.tex" "/Users/jielei/Dropbox/Project/jayleicn.github.io/cv/cv_jielei.pdf" "cv_jielei" 1688774001
+  "/Users/jielei/Dropbox/Project/jayleicn.github.io/cv/cv_jielei.aux" 1688773572 662 b2b94621371df8d9296b8bf5bec1b851 ""
+  "/Users/jielei/Dropbox/Project/jayleicn.github.io/cv/cv_jielei.tex" 1688774001 13591 7ff9cd444c6a2b2d6b9eea05ba9f83f3 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc" 1480098667 2679 32dd8ae231bf4a0752b98f62dc097183 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1480098701 1328 c834bbb027764024c09d3d2bf908b5f0 ""
@@ -27,6 +27,7 @@
   "/usr/local/texlive/2018/texmf-dist/tex/latex/base/article.cls" 1523050425 19823 fcbc01552b07b608574cbf8e1977e0c0 ""
   "/usr/local/texlive/2018/texmf-dist/tex/latex/base/ifthen.sty" 1523050425 5161 c004ea5a189d4bdcf42e86754ad75a58 ""
   "/usr/local/texlive/2018/texmf-dist/tex/latex/base/size10.clo" 1523050425 8294 b0f177401f895563eb19304d2389582d ""
+  "/usr/local/texlive/2018/texmf-dist/tex/latex/enumitem/enumitem.sty" 1480098827 42666 6fa770e3485520a6a5f2ea7d259c8f8d ""
   "/usr/local/texlive/2018/texmf-dist/tex/latex/fontawesome/fontawesome.sty" 1480098829 2757 ee97743276dc242c78f33fd622e260ea ""
   "/usr/local/texlive/2018/texmf-dist/tex/latex/fontawesome/fontawesomesymbols-generic.tex" 1480098829 33234 40b369fd6c8364bdcc88401c4c1db5bf ""
   "/usr/local/texlive/2018/texmf-dist/tex/latex/fontawesome/fontawesomesymbols-pdftex.tex" 1480098829 46429 f7ffa71c62c5257edd5542253d4cea15 ""
@@ -51,14 +52,14 @@
   "/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1523934492 2717033 f61a5287d9c22a39a74f1979fe3f905c ""
   "/usr/local/texlive/2018/texmf-var/web2c/pdftex/pdflatex.fmt" 1523934516 4220280 10cab8fbd7c5a7c52aba9917e190d018 ""
   "/usr/local/texlive/2018/texmf.cnf" 1523934483 577 0b39adfd7c93507ff20c9c14c2f1a33f ""
-  "cv_jielei.aux" 1678249771 662 b2b94621371df8d9296b8bf5bec1b851 ""
-  "cv_jielei.out" 1678249771 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "cv_jielei.tex" 1678249769 13394 d258abd89ac388d3a85557677f8e0dfb ""
+  "cv_jielei.aux" 1688773572 662 b2b94621371df8d9296b8bf5bec1b851 ""
+  "cv_jielei.out" 1688773572 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "cv_jielei.tex" 1688774001 13591 7ff9cd444c6a2b2d6b9eea05ba9f83f3 ""
   "resume.cls" 1654004110 4801 c6e0345fa37a677e94d0b82e2edfb5ac ""
   (generated)
+  "cv_jielei.pdf"
   "cv_jielei.log"
   "cv_jielei.out"
-  "/Users/jielei/Dropbox/Project/jayleicn.github.io/cv/cv_jielei.pdf"
   "/Users/jielei/Dropbox/Project/jayleicn.github.io/cv/cv_jielei.log"
-  "cv_jielei.pdf"
   "cv_jielei.aux"
+  "/Users/jielei/Dropbox/Project/jayleicn.github.io/cv/cv_jielei.pdf"

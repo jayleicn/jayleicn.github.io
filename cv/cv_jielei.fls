@@ -59,6 +59,8 @@ INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/fontawesome/fontawesomesymbol
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/fontawesome/fontawesomesymbols-generic.tex
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/fontawesome/fontawesomesymbols-pdftex.tex
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/fontawesome/fontawesomesymbols-pdftex.tex
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/enumitem/enumitem.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/enumitem/enumitem.sty
 INPUT /Users/jielei/Dropbox/Project/jayleicn.github.io/cv/cv_jielei.aux
 INPUT /Users/jielei/Dropbox/Project/jayleicn.github.io/cv/cv_jielei.aux
 OUTPUT /Users/jielei/Dropbox/Project/jayleicn.github.io/cv/cv_jielei.aux
