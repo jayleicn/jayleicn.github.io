@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1793917480.34014 "/Users/jielei/Library/CloudStorage/Dropbox/Project/jayleicn.github.io/cv/cv_jielei.tex" "cv_jielei.pdf" "cv_jielei" 1793917480.62479 0
-  "/Users/jielei/Library/CloudStorage/Dropbox/Project/jayleicn.github.io/cv/cv_jielei.tex" 1793917480.15277 14168 9f2674f4f7675ab4945e944ee4781e8d ""
+["pdflatex"] 1793940610.93323 "/Users/jielei/Library/CloudStorage/Dropbox/Project/jayleicn.github.io/cv/cv_jielei.tex" "cv_jielei.pdf" "cv_jielei" 1793940611.2773 0
+  "/Users/jielei/Library/CloudStorage/Dropbox/Project/jayleicn.github.io/cv/cv_jielei.tex" 1793940610.65658 14168 6c8f8d1d02f9fcb33a76bf3773540cd7 ""
   "/usr/local/texlive/2026basic/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc" 1463430686 2679 32dd8ae231bf4a0752b98f62dc097183 ""
   "/usr/local/texlive/2026basic/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/local/texlive/2026basic/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -64,9 +64,9 @@
   "/usr/local/texlive/2026basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1779688174 79541 a20f8eaa9b35a7b77e0939ad97fd6b91 ""
   "/usr/local/texlive/2026basic/texmf-var/web2c/pdftex/pdflatex.fmt" 1772405612 2966183 588a2f29d0aaf280e3a142a37c2dd621 ""
   "/usr/local/texlive/2026basic/texmf.cnf" 1772405582 628 bbc09d6d38872d53c11bb48dc9b14e88 ""
-  "cv_jielei.aux" 1793917480.58345 162 fa61bf9ecf9314f94d51aa32222a725c "pdflatex"
-  "cv_jielei.out" 1793917480.54835 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "cv_jielei.tex" 1793917480.15277 14168 9f2674f4f7675ab4945e944ee4781e8d ""
+  "cv_jielei.aux" 1793940611.23601 162 fa61bf9ecf9314f94d51aa32222a725c "pdflatex"
+  "cv_jielei.out" 1793940611.19756 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "cv_jielei.tex" 1793940610.65658 14168 6c8f8d1d02f9fcb33a76bf3773540cd7 ""
   "resume.cls" 1654004110 4801 c6e0345fa37a677e94d0b82e2edfb5ac ""
   (generated)
   "cv_jielei.aux"
